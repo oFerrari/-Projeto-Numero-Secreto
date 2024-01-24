@@ -1,9 +1,9 @@
 let numeroSecreto = parseInt(Math.random() * 100 + 1)
-
+let chute
 let tentativas = 0
 
+chute = prompt('Escolha um número entre 1 e 100');
 while (chute != numeroSecreto) {
-    chute = prompt('Escolha um número entre 1 e 100');
     if (chute == numeroSecreto) {
         break;
     } else {
